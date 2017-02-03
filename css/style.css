@@ -1,0 +1,426 @@
+/* ==================================================
+   CSS Imports
+================================================== */
+
+@import url("reset.css");
+@import url("typography.css");
+@import url("columns.css");
+@import url("buttons.css");
+
+/* ==================================================
+   Icon Fonts
+================================================== */
+
+@import url("fonts/fontawesome/font-awesome.css");
+
+/* ==================================================
+   Google Fonts
+================================================== */
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+
+/* ==================================================
+   Global Styles
+================================================== */
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	height: 100%;
+	overflow: auto;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body
+{
+	background: #FFF;
+	padding: 0;
+	
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+
+::selection
+{
+	background: #16A085;
+	color: #FFF;
+}
+
+::-moz-selection
+{
+	background: #16A085;
+	color: #FFF;
+}
+
+img
+{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+/* ==================================================
+   Background Colours
+================================================== */
+
+.bglightgrey
+{
+	background: #F5F5F5;
+}
+
+.bggreen
+{
+	background: #1ABC9C;
+	color: #FFF;
+}
+
+/* ==================================================
+   Images
+================================================== */
+
+img.imgright
+{
+	float: right;
+	width: 100%;
+	max-width: 300px;
+	margin: 0 0 20px 20px;
+}
+
+img.imgleft
+{
+	float: left;
+	width: 100%;
+	max-width: 300px;
+	margin: 0 20px 20px 0;
+}
+
+/* ==================================================
+   General Layout Styles
+================================================== */
+
+.container
+{
+	width: 100%;
+	min-width: 280px;
+	line-height: 28px;
+}
+
+	.container .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		min-width: 300px;
+		max-width: 1000px;
+		padding: 50px 30px;
+	}
+
+#pageslide
+{
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+	overflow: auto;
+    width: 260px;
+    padding: 20px;
+    background: #333;
+    color: #FFF;
+	line-height: 26px;
+}
+
+	#sidebar
+	{
+		display: none;
+	}
+	
+		#sidebar p a.closebutton
+		{
+			display: block;
+			line-height: 40px;
+			width: 100%;
+			max-width: 40px;
+			font-size: 26px;
+			margin: 0 0 20px 20px;
+			background: #444;
+			text-align: center;
+			color: #FFF;
+		}
+		
+			#sidebar p a:hover.closebutton
+			{
+				background: #1ABC9C;
+			}
+	
+		#sidebar #mainmenu
+		{
+			margin: 0 0 20px 0;
+		}
+		
+			#sidebar #mainmenu ul
+			{
+				float: left;
+				width: 100%;
+				margin: 0;
+				list-style-type: none;
+			}
+			
+				#sidebar #mainmenu ul li
+				{
+					display: block;
+				}
+				
+					#sidebar #mainmenu ul li a
+					{
+						float: left;
+						width: 100%;
+						color: #FFF;
+						padding: 8px 20px 8px 20px;
+						font-weight: 300;
+						text-transform: uppercase;
+					}
+					
+						#sidebar #mainmenu ul li.active a
+						{
+							background: #292929;
+						}
+					
+						#sidebar #mainmenu ul li a span
+						{
+							display: block;
+							color: #FFF;
+							color: rgba(255, 255, 255, 0.5);
+							font-weight: 300;
+							font-size: 14px;
+							line-height: 18px;
+							text-transform: none;
+						}
+
+.scrollbg
+{
+	overflow: hidden;
+	width: 100%;
+	background: url("../images/bg-1.jpg") no-repeat top center fixed;
+	background-size: cover;
+	
+	min-height: 300px;
+	height: auto !important;
+	height: 300px;
+}
+	
+/* ==================================================
+   Sections
+================================================== */
+
+#headercont
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+	#headercont a.togglepanel
+	{
+		float: left;
+		color: #FFF;
+		font-size: 32px;
+		margin: 0 0 15px 0;
+	}
+	
+		#headercont a:hover.togglepanel
+		{
+			color: #1ABC9C;
+		}
+	
+	#headercont h1
+	{
+		clear: both;
+		float: left;
+		display: inline-block;
+		font-weight: 900;
+		width: 100%;
+		max-width: 700px;
+		font-size: 66px;
+		line-height: 66px;
+		color: #FFF;
+		text-transform: uppercase;
+		letter-spacing: -3px;
+	}
+	
+	#headercont span.hrline
+	{
+		width: 100%;
+		max-width: 700px;
+		height: 5px;
+		background: #1ABC9C;
+		display: inline-block;
+	}
+	
+	#headercont p
+	{
+		font-size: 31px;
+		line-height: 31px;
+		margin: 30px 0;
+		font-style: italic;
+		width: 100%;
+		max-width: 700px;
+		color: #FFF;
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+#footercont
+{
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+	#footercont p
+	{
+		margin: 0;
+	}
+
+	#footercont a
+	{
+		color: #FFF;
+	}
+	
+		#footercont a.scrolltop
+		{
+			font-size: 36px;
+		}
+	
+		#footercont #socialmedia ul
+		{
+			margin: 0 0 20px 0;
+		}
+
+		#footercont #socialmedia ul li
+		{
+			display: inline-block;
+			list-style-type: none;
+			margin: 0 0 0 20px;
+			padding: 0;
+		}
+
+			#footercont #socialmedia ul li a
+			{
+				font-size: 32px;
+				color: #FFF;
+				color: rgba(255, 255, 255, 0.6);
+			}
+			
+				#footercont #socialmedia ul li a:hover
+				{
+					color: #FFF;
+				}
+
+
+/* ==================================================
+   Responsive Media Queries - Tablets
+================================================== */
+
+@media screen and (max-width: 768px)
+{
+
+	img.imgright
+	{
+		float: none;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 0;
+	}
+	
+	img.imgleft
+	{
+		float: none;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 0;
+	}
+	
+	.container .bodycontainer
+	{
+		padding: 40px 30px;
+	}
+	
+	#headercont
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+		
+		#headercont h1
+		{
+			font-size: 54px;
+			line-height: 54px;
+			letter-spacing: -1.5px;
+		}
+			
+			#headercont p
+			{
+				font-size: 24px;
+				line-height: 24px;
+				margin: 15px 0;
+			}
+	
+	#headercont a.togglepanel
+	{
+		float: left;
+	}
+	
+	#footercont a.scrolltop
+	{
+		display: block;
+		margin: 0 0 20px 0;
+	}
+	
+	#footercont #socialmedia ul li
+	{
+		margin: 0 20px 0 0;
+	}
+	
+}
+
+/* ==================================================
+   Responsive Media Queries - Mobiles
+================================================== */
+
+@media screen and (max-width: 480px)
+{
+	
+	.container .bodycontainer
+	{
+		padding: 30px;
+	}
+	
+	#headercont
+	{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+		
+		#headercont h1
+		{
+			font-size: 40px;
+			line-height: 40px;
+			letter-spacing: -1px;
+		}
+			
+			#headercont p
+			{
+				font-size: 21px;
+				line-height: 21px;
+				margin: 10px 0;
+			}
+
+}
+

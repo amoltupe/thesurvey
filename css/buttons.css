@@ -1,0 +1,59 @@
+.button
+{
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0;
+	width: auto;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: normal;
+	font-weight: 300;
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+	.button.fullbutton
+	{
+		width: 100%;
+	}
+	
+		.button span
+		{
+			line-height: 28px;
+			font-weight: 400;
+			margin-right: 10px;
+		}
+	
+		.button:after
+		{
+			content: '';
+			position: absolute;
+			z-index: -1;
+		}
+
+
+/** Colours **/
+
+.button
+{
+	background: #16A085;
+	color: #FFF !important;
+}
+
+	.button:hover
+	{
+		background: #FFF;
+		color: #16A085 !important;
+	}
+
+		.button:active
+		{
+			top: 2px;
+		}
+
+
