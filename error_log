@@ -1,0 +1,52 @@
+[07-Sep-2016 10:43:50 Asia/Kolkata] PHP Fatal error:  Call to a member function update_user() on a non-object in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 53
+[07-Sep-2016 10:44:43 Asia/Kolkata] PHP Fatal error:  Call to a member function update_user() on a non-object in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 53
+[08-Oct-2016 18:39:45 Asia/Kolkata] PHP Fatal error:  Call to undefined method Retailer::get_banners() in /home/desaipharma/public_html/newpinch_new/application/controllers/Admin.php on line 190
+[14-Dec-2016 11:12:16 Etc/GMT] PHP Notice:  Undefined index: CI_ENV in /home/desaipharma/public_html/newpinch_new/index.php on line 57
+[14-Dec-2016 11:12:26 Etc/GMT] PHP Notice:  Undefined index: CI_ENV in /home/desaipharma/public_html/newpinch_new/index.php on line 57
+[16-Dec-2016 17:46:48 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:46:49 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:46:53 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:46:57 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:47:07 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:47:24 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:47:27 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:47:30 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:48:05 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:48:09 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:48:09 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:52:37 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:52:38 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:52:39 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:53:23 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:54:19 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 17:54:23 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 255
+[16-Dec-2016 20:08:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$otp' (T_VARIABLE) in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 246
+[20-Dec-2016 17:47:09 Asia/Kolkata] PHP Fatal error:  Call to undefined function Sendsms() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 56
+[20-Dec-2016 17:47:28 Asia/Kolkata] PHP Fatal error:  Call to undefined function Sendsms() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 56
+[20-Dec-2016 18:04:54 Asia/Kolkata] PHP Fatal error:  Call to undefined function Sendsms() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 56
+[20-Dec-2016 18:19:33 Asia/Kolkata] PHP Fatal error:  Call to undefined function Sendsms() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 56
+[20-Dec-2016 13:40:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:19 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:40:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:41:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 13:42:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING) in /home/desaipharma/public_html/newpinch_new/application/config/constants.php on line 32
+[20-Dec-2016 19:27:04 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::unblock_user() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 159
+[20-Dec-2016 19:30:50 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::unblock_user() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 159
+[20-Dec-2016 19:37:10 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::unblock_user() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 159
+[20-Dec-2016 19:51:51 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::unblock_user() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 159
+[20-Dec-2016 20:45:05 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::unblock_user() in /home/desaipharma/public_html/newpinch_new/application/controllers/Webuser.php on line 159
+[20-Dec-2016 23:30:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/desaipharma/public_html/newpinch_new/application/models/User.php on line 278
